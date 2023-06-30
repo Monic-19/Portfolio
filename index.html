@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="textbox">
+            <p>I'M</p>
+            <h1 data-text="MONIC..">MONIC</h1>
+            <h3> A <span class="d-text"></span></h3>
+
+            <div class="row">
+                <a href="main.html">Explore My Port Folio <span>&#x27F6</span> </a>
+
+                <a href="#" onclick="openModal()">Connect With Me <span>&#x27F6</span> </a>
+
+                <span class="info"> You can explore more about my portfolio and <br>personal life experiences here.
+                </span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="modal">
+        <div class="modal-header">
+            <h1>Connect With Me</h1>
+            <div>
+                <i onclick="closeModal()" class="fa-solid fa-xmark close"></i>
+            </div>
+        </div>
+
+        <h3>You can connect with me via</h3>
+        <div>
+
+
+            <div class="icon-container">
+                <a href="#" class="icon" id="linkedin">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a href="#" class="icon" id="github">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="#" class="icon" id="gmail">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+
+                <a href="#" class="icon" id="instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" class="icon" id="telegram">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- Overlay -->
+  <div class="overlay" onclick="closeModal()"></div>
+
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
