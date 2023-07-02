@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
     display: none;
-}
+} */
 
 /* Navbar Section */
 
@@ -508,6 +508,9 @@ body::-webkit-scrollbar {
     transition: clip-path 1s;
 }
 
+.contact-left img:hover{
+    clip-path: polygon(10% 10%, 90% 10%, 90% 90%, 10% 90%);
+}
 
 .contact-right {
     display: flex;
