@@ -247,29 +247,75 @@ body{
     pointer-events: initial;
   }
   
-/* media queries */
+  /* media queries */
+  
+  @media (max-width :850px) {
+      
+    .textbox p{
+        font-size: 8vh;
+        margin-bottom: -15px;
+    }
+  
+    .textbox h1{
+        font-size: 15vh;
+        margin-bottom: -15px;
+    }
+  
+    .textbox h3{
+        font-size: 6vh;
+    }
+  
+    .textbox a{
+        font-size: 2vh;
+        margin-top: 5px;
+    }
 
-
+    .row{
+      gap: 12px;
+    }
+  
+    .modal {
+        width: 80vw;
+    }
+  
+    .modal-header h1{
+        font-size: 5vh;
+      }
+    
+      .modal h3{
+        font-size: 3vh;
+      }
+  }
+  
+  
 
 @media (max-width :500px) {
     
     .textbox p{
-        font-size: 8vh;
+        font-size: 5vh;
         margin-bottom: -35px;
     }
 
     .textbox h1{
-        font-size: 14vh;
+        font-size: 10vh;
         margin-bottom: -35px;
     }
 
     .textbox h3{
-        font-size: 8vh;
+        font-size: 5vh;
     }
 
     .textbox a{
-        font-size: 2vh;
-        margin-top: 10px;
+        font-size: 1.5vh;
+        margin-top: 2px;
+    }
+
+    .row{
+      gap: 12px;
+    }
+
+    .row span{
+      font-size: 2vh;
     }
 
     .modal {
@@ -277,10 +323,14 @@ body{
     }
 
     .modal-header h1{
-        font-size: 4vh;
+        font-size: 3vh;
       }
     
       .modal h3{
         font-size: 2vh;
+      }
+
+      .info{
+        font-size: 1.5vh;
       }
 }
