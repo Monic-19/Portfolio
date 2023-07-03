@@ -76,7 +76,7 @@ tl1
     },'a')
 
 
-    let tl2 = gsap.from(".content h2,.skill h3, .skill li", {
+    let tl2 = gsap.from(".content h2,.skill h3, .skill li ,.skills-icon", {
         opacity: 0,
         stagger: .31,
         x: -100,
