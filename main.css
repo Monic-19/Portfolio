@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 
-/* body::-webkit-scrollbar {
+body{
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
     display: none;
-} */
+}
 
 /* Navbar Section */
 
@@ -57,7 +61,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .hero-right img {
@@ -68,6 +71,7 @@
     transition: clip-path 1s;
     border: 1px solid rgb(255, 255, 255);
     cursor: pointer;
+    z-index: 10;
 
 }
 
@@ -480,6 +484,11 @@
     text-transform: uppercase;
     border-radius: 30px;
     border-top-left-radius: 0;
+}
+
+.proj-left button a{
+    text-decoration: none;
+    color: white;
 }
 
 .proj-right {
