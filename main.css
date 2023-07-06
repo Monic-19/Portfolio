@@ -359,26 +359,44 @@
     font-size: 4vw;
 }
 
-.box .github:hover {
-    color: #ffffff;
-    border: #ffffff;
+.cube{
+    color: white;
+}
+
+.cube:hover {
+    color: #5a5a5a;
+    border: #757575;
     transform: scale(1.2);
+}
+
+.box{
+    background-position: center;
+    background-size: cover;
+    color: white !important;
+    border-radius: 2px;
 }
 
 .box1 {
     background-color: #FEFF86;
-    font-size: 5vw;
+    background-image: url(./images/c1.avif);
+    border: 3px solid yellow;
+    font-size: 4.5vw;
 }
 
 .box2 {
     background-color: #B0DAFF;
+    background-image: url(./images/c2.avif);
+    border: 3px solid rgb(255, 65, 236);
     font-size: 4vw;
     flex-direction: column;
+    /* padding-top: 2wh; */
     gap: 8vh;
 }
 
 .box3 {
     background-color: #B9E9FC;
+    background-image: url(./images/c5.avif);
+    border: 3px solid rgb(255, 124, 43);
     font-size: 3vw;
     flex-direction: column;
     gap: 8vh;
@@ -386,6 +404,8 @@
 
 .box4 {
     background-color: #DAF5FF;
+    background-image: url(./images/c4.avif);
+    border: 3px solid rgb(46, 28, 248);
     font-size: 3vw;
     flex-direction: column;
     gap: 8vh;
