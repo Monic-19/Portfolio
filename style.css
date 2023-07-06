@@ -11,7 +11,7 @@ body{
 .container{
     width: 100%;
     height: 100vh;
-    background-image: url("https://images.unsplash.com/photo-1621778377959-327d045a0cba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2831&q=80");
+    background-image: url(./images/keyboardbg.avif);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
