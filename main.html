@@ -277,7 +277,7 @@
         </div>
 
 
-    </div>
+    </div> 
     
     <div class="contact" id="contact">
         <div class="contact-left">
@@ -288,11 +288,11 @@
             <p>STILL UNDER PROGRESS</p>
             <h1>Contact Me</h1>
             <h3>Questions, Thoughts, Or Just Say Hello?</h3>
-            <form>
-                <input type="text" placeholder="Enter Your Name">
-                <input type="text" placeholder="Enter Your Email">
-                <input type="text" placeholder="Enter Subject">
-                <textarea name="message" placeholder="Enter Your Message"  cols="30" rows="10"></textarea>
+            <form onsubmit="sendEmail(); reset(); return false">
+                <input type="text" placeholder="Enter Your Name" required autocomplete="off" max="50">
+                <input type="email" placeholder="Enter Your Email" id="email" required autocomplete="off">
+                <input type="text" placeholder="Enter Subject" required autocomplete="off">
+                <textarea name="message" placeholder="Enter Your Message"  cols="30" rows="10" required autocomplete="off" minlength="20"></textarea>
                 <input type="submit" placeholder="Send Message" class="sbt">
             </form>
         </div>
@@ -342,6 +342,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="main.js"></script>
 </body>
 

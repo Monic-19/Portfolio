@@ -177,5 +177,16 @@ let c1= gsap.from(".contact , .footer-icons " ,{
 })
 
 
-
-
+function sendEmail(){
+    Email.send({
+        Host : "smtp.elasticemail.com",
+        Username : "monictooo@gmail.com",
+        Password : "password",
+        To : 'monictooo@gmail.com',
+        From : document.getElementById("email").value,
+        Subject : "Contact Form Enquiry",
+        Body : "And this is the body"
+    }).then(
+      message => alert(message)
+    ); 
+}
