@@ -484,11 +484,22 @@ body::-webkit-scrollbar {
     text-transform: uppercase;
     border-radius: 30px;
     border-top-left-radius: 0;
+    transition: all .7s;
+}
+
+.proj-left button:hover{
+    background-color: rgb(255, 255, 255);
+    border-top: 2px solid black;
+    border-left: 2px solid black;
 }
 
 .proj-left button a{
     text-decoration: none;
     color: white;
+}
+
+.proj-left button a:hover{
+    color: #000;
 }
 
 .proj-right {
@@ -525,7 +536,7 @@ body::-webkit-scrollbar {
     object-fit: cover;
 }
 
-.elem h5 {
+.elem h5 a{
     position: absolute;
     bottom: 2%;
     left: 2%;
@@ -535,6 +546,15 @@ body::-webkit-scrollbar {
     border-radius: 6px;
     font-size: 12px;
     border: 2px solid #D0D4D5;
+    transition: all .8s;
+    text-decoration: none;
+}
+
+.elem h5 a:hover{
+    background-color: transparent;
+    border: 2px solid #000;
+    color: #000;
+    font-size: 16px;
 }
 
 .pi2 {
